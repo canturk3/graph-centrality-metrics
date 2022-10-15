@@ -50,7 +50,7 @@ public class CentralityDriver {
         String FIRST_GRAPH_NAME = "Zachary Karate Club Network";
         String SECOND_GRAPH_NAME = "Facebook Social Network";
 
-        String HEADER = "2020510060 Can Türk Küçük:";
+        String HEADER = "Can Türk Küçük:";
 
         UndirectedGraph<Integer> firstGraph = readFileIntoGraph(FIRST_PATH_NAME);
         if(firstGraph != null){
